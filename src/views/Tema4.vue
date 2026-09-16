@@ -132,7 +132,7 @@
                   p.mb-0 Lo invitamos a consultar el siguiente video para conocer aspectos claves de la facturación electrónica en Colombia:  
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=TguG-_iYI1g" target="_blank")
-                    span Ir al video
+                    span Ir al recurso
                     i.fa-brands.fa-youtube
 
     separador
@@ -194,7 +194,7 @@
                   p.mb-0 Lo invitamos a consultar los derechos, deberes y garantías en el sector turístico que tienen los usuarios en la página de la Confederación Colombiana de Consumidores:  
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://ccconsumidores.org.co/derechos-deberes-y-garantias-en-el-sector-turistico/" target="_blank")
-                    span Abrir enlace
+                    span Ir al recurso
                     i.fas.fa-link
     
     separador

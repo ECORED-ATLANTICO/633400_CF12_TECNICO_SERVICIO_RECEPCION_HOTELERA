@@ -176,7 +176,7 @@
                   p.mb-0 A continuación, le compartimos el enlace de consulta de la política de Incocrédito para el tratamiento de datos personales en el procedimiento de confirmación y manejo de pago virtual (no presencial): 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1_SIG-POL-05-Política_de_Protección_de_Datos_Personales_2026.pdf')" target="_blank" type="application/pdf")
-                    span Enlace
+                    span Ir al recurso
                     i.fas.fa-link
 
     separador

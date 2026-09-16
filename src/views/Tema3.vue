@@ -162,7 +162,7 @@
                   p.mb-0 Lo invitamos a consultar el siguiente artículo en donde podrá profundizar sus conocimientos sobre las principales pasarelas de pago utilizadas en Colombia:  
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.tiendanube.com/blog/pasarelas-de-pago-colombia/ " target="_blank")
-                    span Abrir enlace
+                    span Ir al recurso
                     i.fas.fa-link
     
     separador
