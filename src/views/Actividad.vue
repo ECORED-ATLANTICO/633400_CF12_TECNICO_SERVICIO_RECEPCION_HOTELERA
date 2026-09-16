@@ -17,412 +17,330 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Gestión eficiente de pagos hoteleros',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la apropiación de conocimientos relacionados con normatividad hotelera, registro de huéspedes, protección de datos, seguridad de la información y responsabilidad operativa dentro de los establecimientos de alojamiento.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto: 'PREGUNTA1',
+          texto:
+            '¿Cuál es una de las principales ventajas de los pagos digitales en hotelería?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Incrementar procesos manuales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto: 'Reducir tiempos de atención.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Eliminar el registro de consumos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Sustituir la atención al huésped.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Reducir tiempos de atención es una de las principales ventajas operativas que ofrecen los pagos digitales en el sector hotelero.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto: 'PREGUNTA2',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Qué función cumple un <em>PMS</em> dentro de la operación hotelera?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Administrar únicamente reservas aéreas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto: 'Gestionar procesos financieros y operativos del hotel.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Reemplazar completamente al personal de recepción.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Controlar exclusivamente redes sociales del hotel.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Un <em>PMS</em> centraliza y gestiona los procesos financieros, administrativos y operativos de un establecimiento hotelero.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: 'PREGUNTA3',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Cuál de los siguientes corresponde a un medio de pago digital?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Cheque físico.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
+              texto: 'Consignación manual.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
+              texto: 'Billetera digital.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Vale impreso.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Las billeteras digitales representan uno de los medios de pago electrónicos y móviles más utilizados en la actualidad.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
-          texto: 'PREGUNTA4',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Qué documento permite respaldar una transacción financiera realizada?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Inventario de habitaciones.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto: 'Soporte de pago.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Tarjeta de registro hotelero.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Manual operativo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! El soporte de pago es el documento físico o virtual que evidencia y respalda que una transacción financiera ha sido exitosa.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: 'PREGUNTA5',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Qué proceso permite verificar diferencias entre pagos y registros financieros?',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto: 'Conciliación financiera.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Check-in.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Housekeeping.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Revenue management.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! La conciliación financiera permite cotejar los registros del sistema interno frente a los movimientos reales de las cuentas o pasarelas.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 6,
-          texto: 'PREGUNTA6',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Qué riesgo operativo puede generar inconformidad en el huésped?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Actualización automática.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
+              texto: 'Facturación organizada.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Reserva confirmada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
+              texto: 'Cobro duplicado.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Un cobro duplicado genera fricciones inmediatas y afecta negativamente la experiencia y confianza del huésped.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 7,
-          texto: 'PREGUNTA7',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Cuál es una buena práctica durante el proceso de pago?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Omitir información tributaria.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
+              texto: 'Compartir datos financieros del huésped.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
+              texto: 'Verificar consumos antes del cobro.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Evitar generar comprobantes.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Verificar los consumos cargados antes de proceder con la transacción previene errores operativos y malentendidos con el cliente.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 8,
-          texto: 'PREGUNTA8',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Qué tecnología permite realizar pagos acercando el dispositivo al lector?',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Facturación física.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto: 'Pago sin contacto (<em>contactless</em>).',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Registro manual.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'Conciliación bancaria.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! La tecnología sin contacto o <em>contactless</em> agiliza los flujos de pago mediante aproximación inalámbrica segura.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 9,
-          texto: 'PREGUNTA9',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué entidad regula la facturación electrónica en Colombia?',
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'DANE.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
+              texto: 'FONTUR.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
+              texto: 'DIAN.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
+              texto: 'MinTIC.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! La Dirección de Impuestos y Aduanas Nacionales (DIAN) es la institución encargada de reglamentar y supervisar la facturación electrónica.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 10,
-          texto: 'PREGUNTA10',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Qué beneficio ofrece la integración entre <em>PMS</em> y plataformas financieras?',
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Eliminar consumos del huésped.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
+              texto: 'Reducir la ocupación hotelera.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'OPCION3',
+              texto: 'Sustituir la facturación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto: 'PREGUNTA11',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
+              texto: 'Automatizar procesos financieros.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto: 'PREGUNTA12',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto: 'PREGUNTA13',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto: 'PREGUNTA14',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto: 'PREGUNTA15',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Conectar ambos sistemas permite automatizar flujos monetarios, reduciendo el error humano en los registros contables.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
