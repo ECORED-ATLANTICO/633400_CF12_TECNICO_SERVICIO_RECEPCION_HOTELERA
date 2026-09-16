@@ -177,7 +177,6 @@
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1_SIG-POL-05-Política_de_Protección_de_Datos_Personales_2026.pdf')" target="_blank" type="application/pdf")
                     span Ir al recurso
-                    i.fas.fa-link
 
     separador
     

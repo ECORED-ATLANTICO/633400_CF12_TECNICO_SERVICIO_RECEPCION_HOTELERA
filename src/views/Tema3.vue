@@ -163,7 +163,6 @@
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.tiendanube.com/blog/pasarelas-de-pago-colombia/ " target="_blank")
                     span Ir al recurso
-                    i.fas.fa-link
     
     separador
     
