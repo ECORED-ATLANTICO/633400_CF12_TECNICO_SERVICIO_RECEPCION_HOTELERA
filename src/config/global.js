@@ -169,7 +169,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/621602_CF12_DU.zip',
+        download: 'downloads/633400_CF12_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -343,8 +343,7 @@ export default {
     {
       referencia:
         'Ministerio de Comercio, Industria y Turismo. (2015). Decreto 1074 de 2015. Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. SUIN-Juriscol.',
-      link:
-        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/30019935',
+      link: '',
     },
     {
       referencia:
@@ -384,7 +383,7 @@ export default {
         },
         {
           nombre: 'María Fernanda Morales Angulo',
-          cargo: 'Evaluador Instruccional ',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -414,12 +413,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -429,7 +428,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Frit',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

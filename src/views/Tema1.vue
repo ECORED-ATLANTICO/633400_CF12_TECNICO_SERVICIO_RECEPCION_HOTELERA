@@ -132,7 +132,6 @@
           span Formas de pago utilizadas en hotelería
         .tabla-a.color-primario.mb-5.tbl
           table
-            caption Nota. SENA, (2026).
             thead
               tr.bg-color-2
                 th Forma de pago
@@ -175,7 +174,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 A continuación, le compartimos el enlace de consulta de la política de Incocrédito para el tratamiento de datos personales en el procedimiento de confirmación y manejo de pago virtual (no presencial): 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo1_SIG-POL-05-Política_de_Protección_de_Datos_Personales_2026.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Politica_Proteccion_Datos_Personales.pdf')" target="_blank" type="application/pdf")
                     span Ir al recurso
 
     separador
@@ -304,7 +303,6 @@
           span Pago tradicional versus pago digital
         .tabla-a.color-primario.mb-5.tbl
           table
-            caption Nota. SENA, (2026).
             thead
               tr.bg-color-2
                 th Aspecto

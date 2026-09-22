@@ -123,7 +123,6 @@
           span Funciones de las pasarelas de pago en hotelería
         .tabla-a.color-primario.mb-5.tbl
           table
-            caption Nota. SENA, (2026).
             thead
               tr.bg-color-2
                 th Función
@@ -184,7 +183,6 @@
           span Riesgos operativos frecuentes en transacciones hoteleras 
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/10.png", alt="La figura tres ilustra los riesgos operativos frecuentes que se presentan en transacciones hotelera. Se describen seis riesgos operativos a saber: pagos rechazados, cobros duplicados, errores de digitación, interrupciones de conexión, fallas de sincronización entre sistemas e inconsistencias de facturación.")
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/10-1.png", alt="La figura tres ilustra los riesgos operativos frecuentes que se presentan en transacciones hotelera. Se describen seis riesgos operativos a saber: pagos rechazados, cobros duplicados, errores de digitación, interrupciones de conexión, fallas de sincronización entre sistemas e inconsistencias de facturación.")
-        figcaption Nota. SENA, (2026).
 
     .bg-fondo-3.mb-5.p-4
       .row.align-items-center
@@ -288,7 +286,6 @@
           span Buenas prácticas en pagos digitales hoteleros 
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/15.png", alt="La figura 4 presenta seis buenas prácticas orientadas a fortalecer la organización, precisión y control de los procesos de pago en establecimientos de alojamiento. Dichas prácticas son: verificación de datos, validación de transacciones, generación de reportes, actualización de registros, comunicación clara y control operativo.")
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/15-1.png", alt="La figura 4 presenta seis buenas prácticas orientadas a fortalecer la organización, precisión y control de los procesos de pago en establecimientos de alojamiento. Dichas prácticas son: verificación de datos, validación de transacciones, generación de reportes, actualización de registros, comunicación clara y control operativo.")
-        figcaption Nota. SENA, (2026).
     
     .bg-fondo-7.mb-5.p-4
       .row.align-items-center.justify-content-end

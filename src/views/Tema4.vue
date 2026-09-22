@@ -90,7 +90,6 @@
           span Facturación tradicional versus facturación electrónica
         .tabla-a.color-primario.mb-5.tbl
           table
-            caption Nota. SENA, (2026).
             thead
               tr.bg-color-10
                 th Aspecto
@@ -255,7 +254,6 @@
         p La evolución tecnológica también ha fortalecido la capacidad de los hoteles para desarrollar operaciones más organizadas y seguras. Actualmente, muchas plataformas permiten monitorear transacciones en tiempo real, validar pagos automáticamente y mantener actualización permanente de registros financieros integrados al PMS. Esto contribuye a disminuir inconsistencias operativas y mejorar la trazabilidad de las transacciones realizadas durante la estadía.
         .bg-color-1.p-4.tarjeta.mb-3
           p.mb-0 Según Oracle Hospitality (2023), la transformación digital continuará orientándose hacia ecosistemas tecnológicos inteligentes capaces de automatizar procesos financieros, integrar plataformas operativas y fortalecer la experiencia del huésped mediante servicios más personalizados y conectados.
-        p.mb-0 Lo invitamos a acceder al siguiente pódcast, cuyo contenido le permitirá adentrarse en la comprensión de la tecnología y transformación digital de los pagos hoteleros.
     
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -265,7 +263,7 @@
               img(src="@/assets/curso/tema4/13.png", data-aos="zoom-in")
           .col-lg-7
             h2(data-aos="fade-left").mb-4 Pódcast
-            p Lo invitamos a acceder al siguiente pódcast, cuyo contenido le permitirá fortalecer el protocolo de atención en la recepción hotelera.
+            p Lo invitamos a acceder al siguiente pódcast, cuyo contenido le permitirá adentrarse en la comprensión de la tecnología y transformación digital de los pagos hoteleros.
             
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
               texto="Tecnología y transformación digital de los pagos hoteleros"
