@@ -251,7 +251,7 @@
           img(src="@/assets/curso/tema2/11.png", data-aos="zoom-in")
       .col-lg-9
         .bg-color-1.px-5.py-4.tarjeta.mb-3
-          p.mb-0 Al finalizar cada turno o jornada laboral, el personal responsable realiza el cierre de caja para consolidar pagos en efectivo, pagos electrónicos, transferencias, <em>vouchers</em>, facturación generada, movimientos registrados en el PMS. Durante este proceso pueden identificarse inconsistencias operativas relacionadas con aspectos como errores de digitación, cobros duplicados, diferencias de caja, pagos rechazados o cargos incorrectos, etc.
+          p.mb-0 Al finalizar cada turno o jornada laboral, el personal responsable realiza el cierre de caja para consolidar pagos en efectivo, pagos electrónicos, transferencias, <em>vouchers</em>, facturación generada y movimientos registrados en el PMS. Durante este proceso pueden identificarse inconsistencias operativas relacionadas con aspectos como errores de digitación, cobros duplicados, diferencias de caja, pagos rechazados o cargos incorrectos, etc.
         p.mb-0 En la siguiente figura se ilustran los principales errores o inconsistencias en procesos de pago hotelero.
 
     .row.justify-content-center.align-items-center.z-2.mb-5
@@ -335,9 +335,7 @@
             figure
               img(src="@/assets/curso/tema2/21.png", data-aos="zoom-in")
           .col-lg-7
-            h2(data-aos="fade-left").mb-4 Pódcast
-            p Lo invitamos a acceder al siguiente pódcast, cuyo contenido le permitirá fortalecer el protocolo de atención en la recepción hotelera.
-            
+            h2(data-aos="fade-left").mb-4 Pódcast            
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
               texto="Formas de pago en hotelería"
               tiempo

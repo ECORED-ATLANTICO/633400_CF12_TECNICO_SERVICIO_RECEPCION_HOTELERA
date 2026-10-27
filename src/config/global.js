@@ -32,7 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Fundamentos de la forma de pago en hotelería',
+        titulo: 'Fundamentos de las formas de pago en hotelería',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -116,7 +116,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Normativa de transformación digital de los pagos',
+        titulo: 'Normativa de transformación digital en los pagos',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -228,11 +228,6 @@ export default {
         'Dispositivo electrónico utilizado para procesar pagos con tarjetas bancarias.',
     },
     {
-      termino: 'DES o AES',
-      significado:
-        'Algoritmos criptográficos utilizados para el cifrado y protección de información financiera y digital.',
-    },
-    {
       termino: 'Facturación electrónica',
       significado:
         'Sistema digital para generar, validar y almacenar comprobantes de venta de manera electrónica.',
@@ -256,11 +251,6 @@ export default {
       termino: 'Medio de pago',
       significado:
         'Instrumento utilizado para cancelar productos o servicios, como efectivo, tarjeta o transferencia.',
-    },
-    {
-      termino: 'Norma PCI DSS',
-      significado:
-        'Estándar internacional orientado a proteger la información y las transacciones realizadas con tarjetas de pago.',
     },
     {
       termino: 'Pago sin contacto (<em>contactless</em>)',
@@ -352,8 +342,8 @@ export default {
     },
     {
       referencia:
-        'Velásquez, J. (2025). PMS para hotel: qué es, cómo funciona y por qué usarlo. HQBeds.',
-      link: 'https://www.hqbeds.com.br/blog/sistema-pms-hotel',
+        'Rodrigues, M. (2025). PMS para hotel: o sistema que separa quem cresce de quem fica pra trás. HQBeds.',
+      link: ' https://www.hqbeds.com.br/blog/sistema-pms-hotel',
     },
   ],
   creditos: [
@@ -363,8 +353,8 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable Nacional Ecosistema de Recursos Educativos Digitales (RED) - Profesional 06',
-          centro: 'Centro Agroturistico - Regional Santander',
+            'Profesional 06. Responsable del Ecosistema de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre ',
@@ -417,17 +407,12 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Jonathan Adié Villafañe',
+          nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Karine Isabel Ospino Frit',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

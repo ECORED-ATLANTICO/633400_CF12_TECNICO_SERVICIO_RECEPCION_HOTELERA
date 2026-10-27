@@ -20,7 +20,7 @@ export default {
       tema: 'Gestión eficiente de pagos hoteleros',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> verificar la apropiación de conocimientos relacionados con normatividad hotelera, registro de huéspedes, protección de datos, seguridad de la información y responsabilidad operativa dentro de los establecimientos de alojamiento.',
+        '<b> Objetivo:</b> fortalecer la comprensión de los procesos operativos, tecnológicos y normativos relacionados con las formas de pago utilizadas en los establecimientos de alojamiento, mediante el análisis de situaciones asociadas a medios de pago, facturación, atención al huésped y transformación digital en la hotelería.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -59,8 +59,7 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué función cumple un <em>PMS</em> dentro de la operación hotelera?',
+          texto: '¿Qué función cumple un PMS dentro de la operación hotelera?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -86,7 +85,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Un <em>PMS</em> centraliza y gestiona los procesos financieros, administrativos y operativos de un establecimiento hotelero.',
+            '¡Muy bien! Un PMS centraliza y gestiona los procesos financieros, administrativos y operativos de un establecimiento hotelero.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -167,17 +166,17 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Check-in.',
+              texto: '<em>Check-in.</em>',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Housekeeping.',
+              texto: '<em>Housekeeping.</em>',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Revenue management.',
+              texto: '<em>Revenue management.</em>',
               esCorrecta: false,
             },
           ],
@@ -314,7 +313,7 @@ export default {
         {
           id: 10,
           texto:
-            '¿Qué beneficio ofrece la integración entre <em>PMS</em> y plataformas financieras?',
+            '¿Qué beneficio ofrece la integración entre PMS y plataformas financieras?',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [

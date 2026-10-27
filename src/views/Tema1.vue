@@ -87,7 +87,7 @@
           figure
             img(src="@/assets/curso/tema1/12.svg", data-aos="zoom-in")
         .col-lg-10
-          h3 A partir de 2015 en adelante
+          h3 De 2015 en adelante
           p Generalización de los pagos con códigos QR. Los códigos QR se consolidaron como una alternativa segura y de bajo costo para realizar pagos digitales desde dispositivos móviles, especialmente en establecimientos turísticos y hoteleros.
       .row.justify-content-center
         .col-lg-10.mb-4.mb-lg-0
@@ -172,7 +172,7 @@
             .col-auto.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 A continuación, le compartimos el enlace de consulta de la política de Incocrédito para el tratamiento de datos personales en el procedimiento de confirmación y manejo de pago virtual (no presencial): 
+                  p.mb-0 A continuación, le compartimos un documento de consulta de la política de Incocrédito para el tratamiento de datos personales en el procedimiento de confirmación y manejo de pago virtual (no presencial): 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Politica_Proteccion_Datos_Personales.pdf')" target="_blank" type="application/pdf")
                     span Ir al recurso
@@ -324,7 +324,7 @@
               tr.bg-color-sintesis
                 td.text-bold Integración tecnológica
                 td Presenta menor integración con sistemas digitales y plataformas hoteleras.
-                td Se integra fácilmente con <em>PMS</em>, pasarelas de pago y sistemas financieros.
+                td Se integra fácilmente con PMS, pasarelas de pago y sistemas financieros.
               tr.bg-color-white
                 td.text-bold Trazabilidad
                 td El seguimiento de transacciones puede requerir soportes físicos y procesos manuales.

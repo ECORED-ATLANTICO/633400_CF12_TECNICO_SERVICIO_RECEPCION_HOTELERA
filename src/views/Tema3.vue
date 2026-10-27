@@ -130,19 +130,19 @@
             tbody
               tr.bg-color-white
                 td.text-bold Procesamiento de pagos
-                td Validación de transacciones electrónicas
+                td Validación de transacciones electrónicas.
               tr.bg-color-sintesis
                 td.text-bold Confirmación automática
-                td Verificación inmediata del pago
+                td Verificación inmediata del pago.
               tr.bg-color-white
                 td.text-bold Integración con PMS
-                td Actualización automática de cuentas huésped
+                td Actualización automática de cuentas huésped.
               tr.bg-color-sintesis
                 td.text-bold Facturación digital
-                td Generación de comprobantes electrónicos
+                td Generación de comprobantes electrónicos.
               tr.bg-color-white
                 td.text-bold Seguridad transaccional
-                td Protección básica de operaciones financieras
+                td Protección básica de operaciones financieras.
 
     .row.justify-content-center.mb-5
       .col-lg-12
@@ -273,7 +273,7 @@
         figure
           img(src="@/assets/curso/tema3/14.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-right") Actualmente, muchos hoteles complementan estos procedimientos mediante herramientas digitales que permiten comprobantes electrónicos, facturación automatizada, actualización inmediata de cuentas del huésped e integración financiera en tiempo real. Estas soluciones contribuyen a desarrollar procesos más ágiles, organizados y eficientes dentro de la operación hotelera moderna.
+        p(data-aos="fade-right") Actualmente, muchos hoteles complementan estos procedimientos mediante herramientas digitales que permiten generarcomprobantes electrónicos, facturación automatizada, actualización inmediata de cuentas del huésped e integración financiera en tiempo real. Estas soluciones contribuyen a desarrollar procesos más ágiles, organizados y eficientes dentro de la operación hotelera moderna.
         .bg-fondo-4.p-4.mb-3.tarjeta
           p.mb-0 La tecnología aplicada a los pagos hoteleros ha permitido optimizar procesos financieros, automatizar operaciones y fortalecer la integración entre áreas administrativas y operativas dentro de los establecimientos de alojamiento. La incorporación de plataformas digitales, pasarelas de pago y sistemas integrados contribuye a desarrollar procesos más ágiles, organizados y eficientes tanto para el hotel como para el huésped.
     
@@ -284,15 +284,15 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
           span Buenas prácticas en pagos digitales hoteleros 
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/15.png", alt="La figura 4 presenta seis buenas prácticas orientadas a fortalecer la organización, precisión y control de los procesos de pago en establecimientos de alojamiento. Dichas prácticas son: verificación de datos, validación de transacciones, generación de reportes, actualización de registros, comunicación clara y control operativo.")
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/15-1.png", alt="La figura 4 presenta seis buenas prácticas orientadas a fortalecer la organización, precisión y control de los procesos de pago en establecimientos de alojamiento. Dichas prácticas son: verificación de datos, validación de transacciones, generación de reportes, actualización de registros, comunicación clara y control operativo.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema3/15.png", alt="La figura 4 presenta seis buenas prácticas orientadas a fortalecer la organización, precisión y control de los procesos de pago en establecimientos de alojamiento. Dichas prácticas son: verificación de datos, validación de transacciones, generación de soportes, actualización de registros, comunicación clara y control operativo.")
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema3/15-1.png", alt="La figura 4 presenta seis buenas prácticas orientadas a fortalecer la organización, precisión y control de los procesos de pago en establecimientos de alojamiento. Dichas prácticas son: verificación de datos, validación de transacciones, generación de soportes, actualización de registros, comunicación clara y control operativo.")
     
     .bg-fondo-7.mb-5.p-4
       .row.align-items-center.justify-content-end
         .col-lg-1.mb-lg-0.order-lg-2
           img.d-none.d-lg-flex(src="@/assets/curso/tema3/6.svg").mx-auto
         .col-lg-10.order-lg-1
-          p.mb-0 Es así como, la adecuada gestión de transacciones digitales y la aplicación de buenas prácticas operativas permiten reducir inconsistencias, mejorar el control financiero y fortalecer la experiencia del cliente durante los procesos de cobro y facturación. En este contexto, la transformación tecnológica continúa consolidándose como un elemento fundamental para la competitividad y modernización de la operación hotelera.
+          p.mb-0 Es así como la adecuada gestión de transacciones digitales y la aplicación de buenas prácticas operativas permiten reducir inconsistencias, mejorar el control financiero y fortalecer la experiencia del cliente durante los procesos de cobro y facturación. En este contexto, la transformación tecnológica continúa consolidándose como un elemento fundamental para la competitividad y modernización de la operación hotelera.
 
 </template>
 

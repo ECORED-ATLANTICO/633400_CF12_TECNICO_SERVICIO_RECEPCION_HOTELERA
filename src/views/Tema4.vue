@@ -189,9 +189,9 @@
             .col-auto.col-lg-10
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Lo invitamos a consultar los derechos, deberes y garantías en el sector turístico que tienen los usuarios en la página de la Confederación Colombiana de Consumidores:  
+                  p.mb-0 Lo invitamos a consultar la información sobre los derechos y mecanismos de protección de los consumidores en Colombia, disponible en el portal oficial de la Superintendencia de Industria y Comercio (SIC):  
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://ccconsumidores.org.co/derechos-deberes-y-garantias-en-el-sector-turistico/" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.sic.gov.co/" target="_blank")
                     span Ir al recurso
     
     separador
